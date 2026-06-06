@@ -9,7 +9,7 @@ name: "Scheduled Execution"
 on:
     schedule:
             # cronograma de execução
-            # 1 - minuto, 2- 8hora, 3 - dia do mês, 4
+            # 1 - minuto, 2 - hora, 3 - dia do mês, 4 - mês do ano
             - cron: '*/3 * * * '
 
 #tarefas dentro da pipeline = jobs
